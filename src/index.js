@@ -1,3 +1,5 @@
+import "./style.css";
+
 const greet = () => {
   const root = document.querySelector(".root");
 
