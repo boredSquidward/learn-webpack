@@ -3,3 +3,8 @@ body {
   color: #fff;
   text-align: center;
 }
+
+img {
+  width: 30vw;
+  border-radius: 5px;
+}
