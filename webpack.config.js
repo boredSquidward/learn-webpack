@@ -2,12 +2,14 @@ const path = require("path");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
 
 module.exports = {
+  mode: "development",
   entry: "./src/index.js",
   output: {
     path: path.resolve(__dirname, "dist"),
     filename: "bundle.[contenthash].js",
     clean: true,
   },
+  devtool: "inline-source-map",
   module: {
     rules: [
       {
@@ -20,5 +22,9 @@ module.exports = {
       },
     ],
   },
-  plugins: [new HtmlWebpackPlugin()],
+  plugins: [
+    new HtmlWebpackPlugin({
+      title: "Development Mode",
+    }),
+  ],
 };
