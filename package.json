@@ -1,0 +1,21 @@
+{
+  "name": "learn-webpack",
+  "scripts": {
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/boredSquidward/learn-webpack.git"
+  },
+  "keywords": [],
+  "author": "Josiah Kessler",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/boredSquidward/learn-webpack/issues"
+  },
+  "homepage": "https://github.com/boredSquidward/learn-webpack#readme",
+  "devDependencies": {
+    "webpack": "^5.88.1",
+    "webpack-cli": "^5.1.4"
+  }
+}
