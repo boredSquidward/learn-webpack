@@ -9,6 +9,8 @@ const greet = () => {
 
   myImg.src = img;
 
+  myImg.alt = "img";
+
   root.innerHTML = "<h1>Welcome to Webpack Tutorials</h1>";
 
   root.appendChild(myImg);
